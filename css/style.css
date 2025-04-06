@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: black
+}
+
+header img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    background-color: goldenrod
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.section-container {
+    margin-top: 30px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 48%; 
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.chopper-page img {
+    width: 45%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+.franky-page img {
+    width: 45%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+.nami-page img {
+    width: 45%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+.zoro-page img {
+    width: 45%;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+.precio {
+ background-color: red;
+ font-size: 25px;
+}
+
+video {
+    width: 25%;
+}
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px; /
+    }
