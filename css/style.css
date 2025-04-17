@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -61,13 +57,13 @@ h2 {
 
 .section-container {
     margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
 
 .columns {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-top: 20px;
+    display: contents;
 }
 
 section {
@@ -163,9 +159,21 @@ footer a:hover {
 video {
     width: 25%;
 }
+
 @media (max-width: 768px) {
-    .columns {
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px; /
+    .section-container {
+        grid-template-columns: 1fr;
     }
+
+section {
+    width: 100%
+}
+nav ul il {
+    display: block;
+    margin: 10px 0;
+}
+
+video {
+    width: 100%;
+}
+}
