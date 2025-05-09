@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    .section-container {
+      grid-template-columns: 1fr;
+    }
+  
+    section {
+      width: 100%;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    video {
+      width: 100%;
+    }
+  }

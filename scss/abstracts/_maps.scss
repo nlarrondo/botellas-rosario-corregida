@@ -1,0 +1,12 @@
+$color-map: (
+  fondo: $color-whitesmoke,
+  header: $color-black,
+  footer: $color-gray-dark,
+  enlace: $color-gray-dark,
+  precio: $color-precio,
+  hover: underline
+);
+
+@function color($key) {
+  @return map-get($color-map, $key);
+}
